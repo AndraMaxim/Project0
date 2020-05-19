@@ -1,0 +1,461 @@
+
+
+/*general*/
+body{
+	font-family:Fira Sans,Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	line-height:1.81;
+	color:#555;
+	background-color:#fff
+	margin:0;
+	border-color: lightgrey;
+}
+
+div.container {
+	position: relative;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+div.content {
+	position: absolute;
+	padding: 7%;
+	bottom: 10%;
+	color: #f1f1f1;
+	width: 100%;
+}
+
+#body-border {
+	border-color: lightgrey;
+}
+
+
+
+
+/*navbar*/
+img.logo {
+	margin-left: 8px;
+}
+
+a.login {
+	color: #00c233;
+}
+
+a.login:hover {
+	color: #009e2a;
+}
+
+a.navbar-brand {
+	margin: 0px;
+	margin-left: 8px;
+}
+
+a.nav-link {
+	padding-left: 16px;
+}
+
+.nav-item {
+	width: 110px;
+}
+
+div.dropdown-menu {
+	font-size: 14px;
+}
+
+a.dropdown-item {
+	padding: 4px 20px;
+}
+
+ol.breadcrumb {
+	background: none;
+	margin: 0px;
+}
+
+
+
+/*index content*/
+img.img-fluid {
+	margin: 0px;
+	max-width: 100%;
+	height: auto;
+}
+
+.card-img {
+    border-radius: 0px;
+}
+
+/*start button*/
+.btn-primary {
+	background-color: #00c233;
+	border: none;
+}
+
+.btn-primary:hover {
+	background-color: #009e2a;
+	border: none;
+}
+
+.card.bg-dark.text-white {
+	padding: 0px; 
+	border-radius: 0px; 
+	border: 0px;
+}
+
+
+/*footer*/
+i.fa {
+	width: 35px;
+	color: #00c233;
+	font-size:20px;
+}
+
+i.fa:hover {
+	color: #009e2a;
+}
+
+p.txt-railway {
+	font-size: 10px;
+}
+
+a.nav-link.mr-sm-2 {
+	font-size: 10px;
+	color: rgba(0,0,0,.5);
+	padding: 4px;
+}
+
+a.nav-link.mr-sm-2:hover {
+	color: #555;
+}
+
+hr.small {
+	width: 60%;
+}
+
+
+/*pricing cards*/
+div.col-md-4 {
+	padding: 1rem;
+}
+
+.row {
+	margin: 1rem;
+}
+
+div.card {
+	border-color: #f1f1f1;
+	padding: 20px;
+}
+
+.card:hover {
+	background-color: #f8f9fa;
+	border-color: lightgrey;
+}
+
+.card-footer {
+	text-align: center;
+	background-color: rgba(0,0,0,0);
+    border-top: 1px solid rgba(0,0,0,0);
+}
+
+.card-button, .card-footer {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+
+/*pagination buttons*/
+a.page-link {
+	color: #555555;
+}
+
+a.page-link:hover {
+	color: #555555;
+}
+
+.page-item.active .page-link {
+	background-color: #00c233;
+	border-color: #00c233;
+}
+
+ul.pagination.justify-content-center {
+	margin-bottom: 50px;
+}
+
+.text {
+	padding: 0px 20px 20px 20px;
+	text-align: center;
+}
+
+
+/* Centered text on image*/
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+
+/*blog cards scss*/
+/*.card-columns {
+	@include media-breakpoint-only(lg) {
+    	column-count: 4;
+  }
+	@include media-breakpoint-only(xl) {
+	column-count: 5;
+  }
+}*/
+
+
+
+/*sign in / sign up page style*/
+.container.small {
+	max-width: 450px; 
+	margin-top: 50px; 
+	margin-bottom: 200px;
+}
+
+.container.inner {
+	padding:30px; 
+	background-color: #f8f9fa; 
+	border-radius: 10px;
+}
+
+div.text-black {
+	padding: 20px;
+	font-size: 13px;
+}
+
+
+
+/* style inputs and link buttons */
+input, .btn {
+	padding: 12px;
+	border: none;
+	border-radius: 4px;
+	margin: 5px 0;
+	opacity: 0.80;
+	display: inline-block;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+input {
+	width: 100%;
+}
+
+input:hover {
+  opacity: 1;
+}
+
+
+/* style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+/* Two-column layout */
+.col {
+  width: 50%;
+  margin: auto;
+  margin-top: 6px;
+}
+
+input.user-data {
+  background-color: #f1f1f1;
+}
+
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+
+/*footer*/
+.footer {
+	padding-top: 20px;
+	margin-bottom: 0px;
+	width: 100%;
+	background-color: #f1f1f1;
+	color: #555;
+	text-align: center;
+	font-size: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.txt-railway {
+	color: rgba(0,0,0,.5);
+}
+
+.sub {
+	font-size: 12px; 
+	text-align: left; 
+	margin-bottom: 0px; 
+	color: rgba(0,0,0,.5);
+}
+
+.form-inline {
+	width: 100%; 
+	margin:0px;
+}
+
+.form-control {
+	width: 70%; 
+	margin:0px 0px 0px 0px; 
+	font-size: 12px;
+}
+
+.btn.btn-outline-success {
+	width: 20%;
+	height: 32px;
+	line-height: 1px; 
+	border: 1px solid #ced4da; 
+	padding: 5px;
+}
+
+.sub-checkbox {
+	font-size: 10px;
+	text-align: left; 
+	color: rgba(0,0,0,.5);
+}
+
+
+
+/*profile form*/
+h5 {
+	margin-bottom: 40px;
+}
+
+
+/*contact form*/
+label {
+	font-size: 14px;
+}
+
+.close {
+	font-size: 20px; 
+	float: right;
+}
+
+#subject {
+	height:200px; 
+	width: 100%;	
+}
+
+
+/*plans slides*/
+.carousel {
+	margin-bottom: 50px;
+}
+
+
+/*plans table*/
+.sport-icon {
+	width: 50px;
+}
+th, td {
+	text-align: center;
+	vertical-align: middle!Important;
+}
+
+.plans-info-title {
+	text-align: left;
+}
+
+.plans-info {
+	color: rgba(0,0,0,.5);
+}
+
+.additional-title {
+	margin: 0px;
+	color: rgba(0,0,0,.3);;
+}
+
+
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* Responsive layout - make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+	.mr-sm-2 {
+		margin-right: 0px!Important
+	}
+	.card-columns {
+		column-count: 2;
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	.card-columns {
+		column-count: 3;
+	}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	.card-columns {
+		column-count: 4;
+	}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+/*@media (min-width: 1200px) {
+	.card-columns {
+		column-count: 5;
+	}
+}
+*/
