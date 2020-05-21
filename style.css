@@ -81,7 +81,8 @@ img.img-fluid {
 }
 
 .card-img {
-    border-radius: 0px;
+	border-radius: 0px;
+	min-height: 300px;
 }
 
 /*start button*/
