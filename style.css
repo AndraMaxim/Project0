@@ -81,8 +81,7 @@ img.img-fluid {
 }
 
 .card-img {
-	border-radius: 0px;
-	min-height: 300px;
+    border-radius: 0px;
 }
 
 /*start button*/
@@ -194,8 +193,9 @@ ul.pagination.justify-content-center {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	margin-left: 0 auto;
+	margin-right: 0 auto;
 }
-
 
 
 /*blog cards scss*/
